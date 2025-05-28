@@ -1,0 +1,4591 @@
+{
+  "ED_Spider_ShieldTank": {
+    "EnemyID": "ID_Spider_ShieldTank",
+    "EnemyClass": "/Game/Enemies/Spider/Tank/ShieldTank/ENE_Spider_ShieldTank.ENE_Spider_ShieldTank_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Normal",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 3,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 3,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 10,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 1,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Advanced"
+  },
+  "ED_Spider_Swarmer": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Enemies/Spider/Swarmer/ENE_Spider_Swarmer.ENE_Spider_Swarmer_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Swarmer",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 0,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 30,
+    "CanBeUsedForConstantPressure": true,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 6,
+    "MinSpawnCount": 8,
+    "MaxSpawnCount": 9999,
+    "Rarity": 4,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Basic"
+  },
+  "ED_Spider_Spitter": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Enemies/Spider/Spitter/ENE_Spider_Spitter.ENE_Spider_Spitter_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Normal",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 2,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 10,
+    "CanBeUsedForConstantPressure": true,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 25,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 6,
+    "SpawnAmountModifier": 0.5,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Basic"
+  },
+  "ED_Spider_Grunt_Ice": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Enemies/Spider/Grunt/ENE_Spider_Grunt_Ice.ENE_Spider_Grunt_Ice_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [
+      {
+        "EnemyID": "",
+        "EnemyClass": "/Game/Enemies/Spider/Grunt/Guard/ENE_Spider_Grunt_Guard.ENE_Spider_Grunt_Guard_C",
+        "VeteranScaling": "NormalEnemy",
+        "VeteranClasses": [],
+        "BiomeEnemyClassOverrides": null,
+        "EliteEnemyClass": "",
+        "BannedMissionTypes": [],
+        "EnemySignificance": "Normal",
+        "SpawnOffset": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "UsesSpawnEffects": true,
+        "CreatureSize": 2,
+        "Positioning": "",
+        "PlacementCategories": 1,
+        "CaveInfluencer": "",
+        "Debris": null,
+        "InfluencerRange": 1000,
+        "PlacementCarver": "",
+        "PathfinderType": "Walk",
+        "PlacementRoomQuery": null,
+        "SpawnSpread": 400,
+        "IdealSpawnSize": 5,
+        "CanBeUsedForConstantPressure": true,
+        "CanBeUsedInEncounters": true,
+        "DifficultyRating": 15,
+        "MinSpawnCount": 1,
+        "MaxSpawnCount": 9999,
+        "Rarity": 2,
+        "SpawnAmountModifier": 1,
+        "RequiredMainCampaignProgress": 0,
+        "UsesSpawnRarityModifiers": false,
+        "SpawnRarityModifiers": [
+          {
+            "Duration": 0,
+            "Rarity": 0
+          },
+          {
+            "Duration": 0,
+            "Rarity": 0
+          },
+          {
+            "Duration": 0,
+            "Rarity": 0
+          },
+          {
+            "Duration": 0,
+            "Rarity": 0
+          }
+        ],
+        "CheatClass": "Basic"
+      },
+      {
+        "EnemyID": "",
+        "EnemyClass": "/Game/Enemies/Spider/Grunt/Attacker/ENE_Spider_Grunt_Attacker.ENE_Spider_Grunt_Attacker_C",
+        "VeteranScaling": "NormalEnemy",
+        "VeteranClasses": [],
+        "BiomeEnemyClassOverrides": null,
+        "EliteEnemyClass": "",
+        "BannedMissionTypes": [],
+        "EnemySignificance": "Normal",
+        "SpawnOffset": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "UsesSpawnEffects": true,
+        "CreatureSize": 2,
+        "Positioning": "",
+        "PlacementCategories": 1,
+        "CaveInfluencer": "",
+        "Debris": null,
+        "InfluencerRange": 1000,
+        "PlacementCarver": "",
+        "PathfinderType": "Walk",
+        "PlacementRoomQuery": null,
+        "SpawnSpread": 400,
+        "IdealSpawnSize": 5,
+        "CanBeUsedForConstantPressure": true,
+        "CanBeUsedInEncounters": true,
+        "DifficultyRating": 12,
+        "MinSpawnCount": 1,
+        "MaxSpawnCount": 9999,
+        "Rarity": 1,
+        "SpawnAmountModifier": 1,
+        "RequiredMainCampaignProgress": 0,
+        "UsesSpawnRarityModifiers": false,
+        "SpawnRarityModifiers": [
+          {
+            "Duration": -0,
+            "Rarity": 0
+          },
+          {
+            "Duration": 0,
+            "Rarity": 0
+          },
+          {
+            "Duration": 0,
+            "Rarity": 0
+          },
+          {
+            "Duration": 0,
+            "Rarity": 0
+          }
+        ],
+        "CheatClass": "Basic"
+      }
+    ],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Normal",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 2,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 500,
+    "IdealSpawnSize": 8,
+    "CanBeUsedForConstantPressure": true,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 10,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": -5.9e-05,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Advanced"
+  },
+  "ED_Spider_Grunt": {
+    "EnemyID": "ID_Spider_Grunt",
+    "EnemyClass": "/Game/Enemies/Spider/Grunt/ENE_Spider_Grunt_Normal.ENE_Spider_Grunt_Normal_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [
+      {
+        "EnemyID": "",
+        "EnemyClass": "/Game/Enemies/Spider/Grunt/Guard/ENE_Spider_Grunt_Guard.ENE_Spider_Grunt_Guard_C",
+        "VeteranScaling": "NormalEnemy",
+        "VeteranClasses": [],
+        "BiomeEnemyClassOverrides": null,
+        "EliteEnemyClass": "",
+        "BannedMissionTypes": [],
+        "EnemySignificance": "Normal",
+        "SpawnOffset": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "UsesSpawnEffects": true,
+        "CreatureSize": 2,
+        "Positioning": "",
+        "PlacementCategories": 1,
+        "CaveInfluencer": "",
+        "Debris": null,
+        "InfluencerRange": 1000,
+        "PlacementCarver": "",
+        "PathfinderType": "Walk",
+        "PlacementRoomQuery": null,
+        "SpawnSpread": 400,
+        "IdealSpawnSize": 5,
+        "CanBeUsedForConstantPressure": true,
+        "CanBeUsedInEncounters": true,
+        "DifficultyRating": 15,
+        "MinSpawnCount": 1,
+        "MaxSpawnCount": 9999,
+        "Rarity": 2,
+        "SpawnAmountModifier": 1,
+        "RequiredMainCampaignProgress": 0,
+        "UsesSpawnRarityModifiers": false,
+        "SpawnRarityModifiers": [
+          {
+            "Duration": 0,
+            "Rarity": 0
+          },
+          {
+            "Duration": 0,
+            "Rarity": 0
+          },
+          {
+            "Duration": 0,
+            "Rarity": 0
+          },
+          {
+            "Duration": 0,
+            "Rarity": 0
+          }
+        ],
+        "CheatClass": "Basic"
+      },
+      {
+        "EnemyID": "",
+        "EnemyClass": "/Game/Enemies/Spider/Grunt/Attacker/ENE_Spider_Grunt_Attacker.ENE_Spider_Grunt_Attacker_C",
+        "VeteranScaling": "NormalEnemy",
+        "VeteranClasses": [],
+        "BiomeEnemyClassOverrides": null,
+        "EliteEnemyClass": "",
+        "BannedMissionTypes": [],
+        "EnemySignificance": "Normal",
+        "SpawnOffset": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "UsesSpawnEffects": true,
+        "CreatureSize": 2,
+        "Positioning": "",
+        "PlacementCategories": 1,
+        "CaveInfluencer": "",
+        "Debris": null,
+        "InfluencerRange": 1000,
+        "PlacementCarver": "",
+        "PathfinderType": "Walk",
+        "PlacementRoomQuery": null,
+        "SpawnSpread": 400,
+        "IdealSpawnSize": 5,
+        "CanBeUsedForConstantPressure": true,
+        "CanBeUsedInEncounters": true,
+        "DifficultyRating": 12,
+        "MinSpawnCount": 1,
+        "MaxSpawnCount": 9999,
+        "Rarity": 1,
+        "SpawnAmountModifier": 1,
+        "RequiredMainCampaignProgress": 0,
+        "UsesSpawnRarityModifiers": false,
+        "SpawnRarityModifiers": [
+          {
+            "Duration": -0,
+            "Rarity": 0
+          },
+          {
+            "Duration": 0,
+            "Rarity": 0
+          },
+          {
+            "Duration": 0,
+            "Rarity": 0
+          },
+          {
+            "Duration": 0,
+            "Rarity": 0
+          }
+        ],
+        "CheatClass": "Basic"
+      }
+    ],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Normal",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 2,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 500,
+    "IdealSpawnSize": 8,
+    "CanBeUsedForConstantPressure": true,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 10,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": -5.9e-05,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Basic"
+  },
+  "ED_Spider_ExploderTank_King": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Enemies/Spider/ExploderTank/ENE_Spider_ExploderTank_King.ENE_Spider_ExploderTank_King_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Critical",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 4,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 1,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": false,
+    "DifficultyRating": 10,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 99,
+    "UsesSpawnRarityModifiers": true,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 480,
+        "Rarity": 100
+      },
+      {
+        "Duration": 480,
+        "Rarity": 100
+      },
+      {
+        "Duration": 420,
+        "Rarity": 100
+      },
+      {
+        "Duration": 420,
+        "Rarity": 100
+      }
+    ],
+    "CheatClass": "Advanced"
+  },
+  "ED_Spider_Exploder": {
+    "EnemyID": "ID_Spider_Exploding",
+    "EnemyClass": "/Game/Enemies/Spider/Exploder/ENE_Spider_Exploding.ENE_Spider_Exploding_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Normal",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 2,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 8,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 25,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 0.5,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Advanced"
+  },
+  "ED_Spider_Buffer": {
+    "EnemyID": "ID_Spider_Buffer",
+    "EnemyClass": "/Game/Enemies/Spider/Buffer/ENE_Spider_Buffer.ENE_Spider_Buffer_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Normal",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 2,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 500,
+    "IdealSpawnSize": 8,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 90,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 2,
+    "Rarity": 8,
+    "SpawnAmountModifier": 0.5,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": true,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 180,
+        "Rarity": 12
+      },
+      {
+        "Duration": 120,
+        "Rarity": 12
+      },
+      {
+        "Duration": 120,
+        "Rarity": 12
+      },
+      {
+        "Duration": 120,
+        "Rarity": 12
+      }
+    ],
+    "CheatClass": "Advanced"
+  },
+  "ED_ShootingPlant": {
+    "EnemyID": "ID_ShootingPlant",
+    "EnemyClass": "/Game/Enemies/ShootingPlant/ENE_ShootingPlant.ENE_ShootingPlant_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Normal",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": false,
+    "CreatureSize": 3,
+    "Positioning": "DebrisPositioning_0",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 0,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 10,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 100,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Hidden"
+  },
+  "ED_Terminator": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Enemies/RivalTech/Terminator/ENE_Terminator.ENE_Terminator_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Critical",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": false,
+    "CreatureSize": 4,
+    "Positioning": "",
+    "PlacementCategories": 0,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Fly",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 1,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 140,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 2,
+    "Rarity": 6,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": true,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 840,
+        "Rarity": 100
+      },
+      {
+        "Duration": 840,
+        "Rarity": 100
+      },
+      {
+        "Duration": 660,
+        "Rarity": 100
+      },
+      {
+        "Duration": 660,
+        "Rarity": 100
+      }
+    ],
+    "CheatClass": "Specials"
+  },
+  "ED_InfectedMule": {
+    "EnemyID": "ID_InfectedMule",
+    "EnemyClass": "/Game/Enemies/MuleInfected/ENE_InfectedMule.ENE_InfectedMule_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Critical",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 2,
+    "Positioning": "DebrisPositioning_0",
+    "PlacementCategories": 2,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "BP_InfectedMulePreplacement_C",
+    "PathfinderType": "MAX",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 10,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 300,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 1,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 5,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 57100576725477100000,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Specials"
+  },
+  "ED_JellyBreeder": {
+    "EnemyID": "ID_JellyBreeder",
+    "EnemyClass": "/Game/Enemies/Jelly_Breeder/ENE_JellyBreeder.ENE_JellyBreeder_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Swarmer",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": false,
+    "CreatureSize": 0,
+    "Positioning": "",
+    "PlacementCategories": 0,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Fly",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 10,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 145,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 1,
+    "Rarity": 8,
+    "SpawnAmountModifier": 0.5,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": true,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 300,
+        "Rarity": 50
+      },
+      {
+        "Duration": 300,
+        "Rarity": 40
+      },
+      {
+        "Duration": 240,
+        "Rarity": 30
+      },
+      {
+        "Duration": 240,
+        "Rarity": 30
+      }
+    ],
+    "CheatClass": "Specials"
+  },
+  "ED_HydraWeed": {
+    "EnemyID": "ID_HydraWeed_Core",
+    "EnemyClass": "/Game/Enemies/HydraWeed/ENE_HydraWeed_Core.ENE_HydraWeed_Core_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [
+      {
+        "ResourceDistribution": [
+          {
+            "Resource": "RES_VEIN_Gold",
+            "AmountToSpawn": [
+              {
+                "weight": 1,
+                "range": {
+                  "min": 100,
+                  "max": 150
+                }
+              }
+            ]
+          },
+          {
+            "Resource": "RES_VEIN_Nitra",
+            "AmountToSpawn": [
+              {
+                "weight": 1,
+                "range": {
+                  "min": 500,
+                  "max": 500
+                }
+              }
+            ]
+          },
+          {
+            "Resource": "RES_EMBED_Compressed_Gold",
+            "AmountToSpawn": [
+              {
+                "weight": 1,
+                "range": {
+                  "min": 1,
+                  "max": 1
+                }
+              },
+              {
+                "weight": 2,
+                "range": {
+                  "min": 0,
+                  "max": 0
+                }
+              }
+            ]
+          },
+          {
+            "Resource": "RES_EMBED_UnknownArtifact",
+            "AmountToSpawn": [
+              {
+                "weight": 25,
+                "range": {
+                  "min": 0,
+                  "max": 0
+                }
+              },
+              {
+                "weight": 1,
+                "range": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            ]
+          },
+          {
+            "Resource": "RES_EMBED_Bittergem",
+            "AmountToSpawn": [
+              {
+                "weight": 20,
+                "range": {
+                  "min": 0,
+                  "max": 0
+                }
+              },
+              {
+                "weight": 1,
+                "range": {
+                  "min": 1,
+                  "max": 1
+                }
+              }
+            ]
+          }
+        ],
+        "PrimaryObjective": "OBJ_1st_PointExtraction_C",
+        "SecondaryObjectives": [
+          "OBJ_2nd_Mine_Hollomite_C",
+          "OBJ_2nd_Find_Gunkseed_C",
+          "OBJ_2nd_Find_Ebonut_C",
+          "OBJ_2nd_KillFleas_C",
+          "OBJ_2nd_Find_ApocaBloom_C",
+          "OBJ_2nd_Find_BooloCap_C",
+          "OBJ_2nd_Find_Fossil_C",
+          "OBJ_2nd_Mine_Dystrum_C"
+        ],
+        "DeepDiveObjectives": [
+          "OBJ_DD_AlienEggs_C",
+          "OBJ_DD_Morkite_C",
+          "OBJ_DD_Elimination_Eggs_C",
+          "OBJ_DD_Defense_C"
+        ],
+        "BaseMutators": [],
+        "pls": "/Game/Landscape/ProceduralLevelSetups/Alpha02/PLS_Motherlode_Star.PLS_Motherlode_Star_C",
+        "Level": "/Game/Maps/LVL_Procedural.LVL_Procedural",
+        "GameMode": "/Game/Game/GM_Motherlode.GM_Motherlode_C",
+        "LockedComplexities": [],
+        "LockedDurations": [
+          "MD_Duration_Long"
+        ],
+        "MissionName": "Point Extraction",
+        "MissionImageLarge": null,
+        "MissionButtonImage": null,
+        "MissionIcon": null,
+        "MissionIconSmall": null,
+        "MissionColor": null,
+        "MissionTypeIndex": 4,
+        "MissionTypeAnalyticsIndex": "PointExtraction",
+        "DNA": [
+          "DNA_Motherlode_Long_C",
+          "DNA_Motherlode_Short_C"
+        ],
+        "DebrisComponents": [],
+        "MustBeUnlocked": true,
+        "RoomEncounerScale": 1,
+        "StationaryEnemyScale": 1,
+        "Tutorials": []
+      }
+    ],
+    "EnemySignificance": "Critical",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": false,
+    "CreatureSize": 3,
+    "Positioning": "DebrisPositioning_0",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 0,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 500,
+    "IdealSpawnSize": 20,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 1,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 1,
+    "Rarity": 0.5,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 99,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 0.2,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Hidden"
+  },
+  "ED_Bomber_Ice": {
+    "EnemyID": "ID_Bomber_Ice",
+    "EnemyClass": "/Game/Enemies/FlyingBug/Bomber/ENE_Bomber_Ice.ENE_Bomber_Ice_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Normal",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": false,
+    "CreatureSize": 0,
+    "Positioning": "",
+    "PlacementCategories": 0,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Fly",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 1,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 75,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 2,
+    "Rarity": 6,
+    "SpawnAmountModifier": 0.5,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": -0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Mactera"
+  },
+  "ED_Bomber_Explosive": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Enemies/FlyingBug/Bomber/ENE_Bomber_Fire.ENE_Bomber_Fire_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Normal",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": false,
+    "CreatureSize": 0,
+    "Positioning": "",
+    "PlacementCategories": 0,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Fly",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 1,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 10,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Mactera"
+  },
+  "ED_Bomber": {
+    "EnemyID": "ID_Bomber",
+    "EnemyClass": "/Game/Enemies/FlyingBug/Bomber/ENE_Bomber_Child.ENE_Bomber_Child_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Normal",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": false,
+    "CreatureSize": 0,
+    "Positioning": "",
+    "PlacementCategories": 0,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Fly",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 1,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 95,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 2,
+    "Rarity": 8,
+    "SpawnAmountModifier": 0.5,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Mactera"
+  },
+  "ED_SpiderSpawner": {
+    "EnemyID": "ID_SpiderSpawner",
+    "EnemyClass": "/Game/Enemies/EnemySpawner/ENE_SpiderSpawner.ENE_SpiderSpawner_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Critical",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 0,
+    "Positioning": "DebrisPositioning_0",
+    "PlacementCategories": 2,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 10,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 120,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 4,
+    "Rarity": 4,
+    "SpawnAmountModifier": 0.5,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Hidden"
+  },
+  "ED_CaveLeech": {
+    "EnemyID": "ID_CaveLeech",
+    "EnemyClass": "/Game/Enemies/CaveLeech/ENE_CaveLeech.ENE_CaveLeech_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Critical",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 100
+    },
+    "UsesSpawnEffects": false,
+    "CreatureSize": 0,
+    "Positioning": "DebrisPositioning_0",
+    "PlacementCategories": 4,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "BP_CaveLeechPlacementCarver_C",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 10,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 100,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 3,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 6.574653992451209e+34,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Hidden"
+  },
+  "ED_Spider_Tank_Ice": {
+    "EnemyID": "ID_Spider_Tank_Ice",
+    "EnemyClass": "/Game/Enemies/Spider/Tank/ENE_Spider_Tank_Ice.ENE_Spider_Tank_Ice_C",
+    "VeteranScaling": "LargeEnemy",
+    "VeteranClasses": [
+      {
+        "EnemyID": "ID_Spider_ShieldTank",
+        "EnemyClass": "/Game/Enemies/Spider/Tank/ShieldTank/ENE_Spider_ShieldTank.ENE_Spider_ShieldTank_C",
+        "VeteranScaling": "NormalEnemy",
+        "VeteranClasses": [],
+        "BiomeEnemyClassOverrides": null,
+        "EliteEnemyClass": "",
+        "BannedMissionTypes": [],
+        "EnemySignificance": "Normal",
+        "SpawnOffset": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "UsesSpawnEffects": true,
+        "CreatureSize": 3,
+        "Positioning": "",
+        "PlacementCategories": 1,
+        "CaveInfluencer": "",
+        "Debris": null,
+        "InfluencerRange": 1000,
+        "PlacementCarver": "",
+        "PathfinderType": "Walk",
+        "PlacementRoomQuery": null,
+        "SpawnSpread": 300,
+        "IdealSpawnSize": 3,
+        "CanBeUsedForConstantPressure": false,
+        "CanBeUsedInEncounters": true,
+        "DifficultyRating": 10,
+        "MinSpawnCount": 1,
+        "MaxSpawnCount": 1,
+        "Rarity": 1,
+        "SpawnAmountModifier": 1,
+        "RequiredMainCampaignProgress": 0,
+        "UsesSpawnRarityModifiers": false,
+        "SpawnRarityModifiers": [
+          {
+            "Duration": 0,
+            "Rarity": 0
+          },
+          {
+            "Duration": 0,
+            "Rarity": 0
+          },
+          {
+            "Duration": 0,
+            "Rarity": 0
+          },
+          {
+            "Duration": 0,
+            "Rarity": 0
+          }
+        ],
+        "CheatClass": "Advanced"
+      }
+    ],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Normal",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 3,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 3,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 10,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Advanced"
+  },
+  "ED_Spider_Tank": {
+    "EnemyID": "ID_Spider_Tank",
+    "EnemyClass": "/Game/Enemies/Spider/Tank/ENE_Spider_Tank_Normal.ENE_Spider_Tank_Normal_C",
+    "VeteranScaling": "LargeEnemy",
+    "VeteranClasses": [
+      {
+        "EnemyID": "ID_Spider_ShieldTank",
+        "EnemyClass": "/Game/Enemies/Spider/Tank/ShieldTank/ENE_Spider_ShieldTank.ENE_Spider_ShieldTank_C",
+        "VeteranScaling": "NormalEnemy",
+        "VeteranClasses": [],
+        "BiomeEnemyClassOverrides": null,
+        "EliteEnemyClass": "",
+        "BannedMissionTypes": [],
+        "EnemySignificance": "Normal",
+        "SpawnOffset": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "UsesSpawnEffects": true,
+        "CreatureSize": 3,
+        "Positioning": "",
+        "PlacementCategories": 1,
+        "CaveInfluencer": "",
+        "Debris": null,
+        "InfluencerRange": 1000,
+        "PlacementCarver": "",
+        "PathfinderType": "Walk",
+        "PlacementRoomQuery": null,
+        "SpawnSpread": 300,
+        "IdealSpawnSize": 3,
+        "CanBeUsedForConstantPressure": false,
+        "CanBeUsedInEncounters": true,
+        "DifficultyRating": 10,
+        "MinSpawnCount": 1,
+        "MaxSpawnCount": 1,
+        "Rarity": 1,
+        "SpawnAmountModifier": 1,
+        "RequiredMainCampaignProgress": 0,
+        "UsesSpawnRarityModifiers": false,
+        "SpawnRarityModifiers": [
+          {
+            "Duration": 0,
+            "Rarity": 0
+          },
+          {
+            "Duration": 0,
+            "Rarity": 0
+          },
+          {
+            "Duration": 0,
+            "Rarity": 0
+          },
+          {
+            "Duration": 0,
+            "Rarity": 0
+          }
+        ],
+        "CheatClass": "Advanced"
+      }
+    ],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Normal",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 3,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 3,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 90,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 4,
+    "Rarity": 3,
+    "SpawnAmountModifier": 0.5,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Basic"
+  },
+  "ED_Spider_Shooter": {
+    "EnemyID": "ID_Spider_Shooter",
+    "EnemyClass": "/Game/Enemies/Spider/Shooter/ENE_Spider_Shooter_Normal.ENE_Spider_Shooter_Normal_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "/Game/Enemies/Spider/Shooter/ENE_Spider_Shooter_Normal_Elite.ENE_Spider_Shooter_Normal_Elite_C",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Normal",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 2,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 10,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 55,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 4,
+    "SpawnAmountModifier": 0.5,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Basic"
+  },
+  "ED_Spider_RapidShooter": {
+    "EnemyID": "ID_Spider_RapidShooter",
+    "EnemyClass": "/Game/Enemies/Spider/RapidShooter/ENE_Spider_RapidShooter.ENE_Spider_RapidShooter_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "/Game/Enemies/Spider/RapidShooter/ENE_Spider_RapidShooter_Elite.ENE_Spider_RapidShooter_Elite_C",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Normal",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 2,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 10,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 95,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 2,
+    "Rarity": 10,
+    "SpawnAmountModifier": 0.5,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": true,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 180,
+        "Rarity": 15
+      },
+      {
+        "Duration": 180,
+        "Rarity": 15
+      },
+      {
+        "Duration": 180,
+        "Rarity": 15
+      },
+      {
+        "Duration": 180,
+        "Rarity": 15
+      }
+    ],
+    "CheatClass": "Advanced"
+  },
+  "ED_Spider_Grunt_Guard": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Enemies/Spider/Grunt/Guard/ENE_Spider_Grunt_Guard.ENE_Spider_Grunt_Guard_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Normal",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 2,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 400,
+    "IdealSpawnSize": 5,
+    "CanBeUsedForConstantPressure": true,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 15,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 2,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Basic"
+  },
+  "ED_Spider_Grunt_Attacker": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Enemies/Spider/Grunt/Attacker/ENE_Spider_Grunt_Attacker.ENE_Spider_Grunt_Attacker_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Normal",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 2,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 400,
+    "IdealSpawnSize": 5,
+    "CanBeUsedForConstantPressure": true,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 12,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": -0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Basic"
+  },
+  "ED_Spider_ExploderTank": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Enemies/Spider/ExploderTank/ENE_Spider_ExploderTank.ENE_Spider_ExploderTank_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Critical",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 4,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 1,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": false,
+    "DifficultyRating": 120,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 1,
+    "Rarity": 15,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": true,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 480,
+        "Rarity": 100
+      },
+      {
+        "Duration": 480,
+        "Rarity": 100
+      },
+      {
+        "Duration": 420,
+        "Rarity": 100
+      },
+      {
+        "Duration": 420,
+        "Rarity": 100
+      }
+    ],
+    "CheatClass": "Advanced"
+  },
+  "ED_Mactera_TripleShooter": {
+    "EnemyID": "ID_Mactera_TripleShooter",
+    "EnemyClass": "/Game/Enemies/FlyingBug/Shooter/ENE_Mactera_TripleShooter.ENE_Mactera_TripleShooter_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Normal",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": false,
+    "CreatureSize": 0,
+    "Positioning": "",
+    "PlacementCategories": 0,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Fly",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 10,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 50,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 5,
+    "SpawnAmountModifier": 0.5,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": -0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Mactera"
+  },
+  "ED_Mactera_Shooter_Normal": {
+    "EnemyID": "ID_Mactera_Shooter_Normal",
+    "EnemyClass": "/Game/Enemies/FlyingBug/Shooter/ENE_Mactera_Shooter_Normal.ENE_Mactera_Shooter_Normal_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [
+      {
+        "EnemyID": "ID_Mactera_Shooter_HeavyVeteran",
+        "EnemyClass": "/Game/Enemies/FlyingBug/Shooter/ENE_Mactera_Shooter_HeavyVeteran.ENE_Mactera_Shooter_HeavyVeteran_C",
+        "VeteranScaling": "NormalEnemy",
+        "VeteranClasses": [],
+        "BiomeEnemyClassOverrides": null,
+        "EliteEnemyClass": "",
+        "BannedMissionTypes": [],
+        "EnemySignificance": "Normal",
+        "SpawnOffset": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "UsesSpawnEffects": false,
+        "CreatureSize": 0,
+        "Positioning": "",
+        "PlacementCategories": 0,
+        "CaveInfluencer": "",
+        "Debris": null,
+        "InfluencerRange": 1000,
+        "PlacementCarver": "",
+        "PathfinderType": "Fly",
+        "PlacementRoomQuery": null,
+        "SpawnSpread": 300,
+        "IdealSpawnSize": 10,
+        "CanBeUsedForConstantPressure": false,
+        "CanBeUsedInEncounters": true,
+        "DifficultyRating": 50,
+        "MinSpawnCount": 1,
+        "MaxSpawnCount": 9999,
+        "Rarity": 3,
+        "SpawnAmountModifier": 1,
+        "RequiredMainCampaignProgress": 0,
+        "UsesSpawnRarityModifiers": false,
+        "SpawnRarityModifiers": [
+          {
+            "Duration": -0,
+            "Rarity": 0
+          },
+          {
+            "Duration": 0,
+            "Rarity": 0
+          },
+          {
+            "Duration": 0,
+            "Rarity": 0
+          },
+          {
+            "Duration": 0,
+            "Rarity": 0
+          }
+        ],
+        "CheatClass": "Mactera"
+      },
+      {
+        "EnemyID": "ID_Mactera_TripleShooter",
+        "EnemyClass": "/Game/Enemies/FlyingBug/Shooter/ENE_Mactera_TripleShooter.ENE_Mactera_TripleShooter_C",
+        "VeteranScaling": "NormalEnemy",
+        "VeteranClasses": [],
+        "BiomeEnemyClassOverrides": null,
+        "EliteEnemyClass": "",
+        "BannedMissionTypes": [],
+        "EnemySignificance": "Normal",
+        "SpawnOffset": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "UsesSpawnEffects": false,
+        "CreatureSize": 0,
+        "Positioning": "",
+        "PlacementCategories": 0,
+        "CaveInfluencer": "",
+        "Debris": null,
+        "InfluencerRange": 1000,
+        "PlacementCarver": "",
+        "PathfinderType": "Fly",
+        "PlacementRoomQuery": null,
+        "SpawnSpread": 300,
+        "IdealSpawnSize": 10,
+        "CanBeUsedForConstantPressure": false,
+        "CanBeUsedInEncounters": true,
+        "DifficultyRating": 50,
+        "MinSpawnCount": 1,
+        "MaxSpawnCount": 9999,
+        "Rarity": 5,
+        "SpawnAmountModifier": 0.5,
+        "RequiredMainCampaignProgress": 0,
+        "UsesSpawnRarityModifiers": false,
+        "SpawnRarityModifiers": [
+          {
+            "Duration": -0,
+            "Rarity": 0
+          },
+          {
+            "Duration": 0,
+            "Rarity": 0
+          },
+          {
+            "Duration": 0,
+            "Rarity": 0
+          },
+          {
+            "Duration": 0,
+            "Rarity": 0
+          }
+        ],
+        "CheatClass": "Mactera"
+      }
+    ],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Normal",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": false,
+    "CreatureSize": 0,
+    "Positioning": "",
+    "PlacementCategories": 0,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Fly",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 10,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 45,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 3,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": -0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Mactera"
+  },
+  "ED_Mactera_Shooter_HeavyVeteran": {
+    "EnemyID": "ID_Mactera_Shooter_HeavyVeteran",
+    "EnemyClass": "/Game/Enemies/FlyingBug/Shooter/ENE_Mactera_Shooter_HeavyVeteran.ENE_Mactera_Shooter_HeavyVeteran_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Normal",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": false,
+    "CreatureSize": 0,
+    "Positioning": "",
+    "PlacementCategories": 0,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Fly",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 10,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 50,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 3,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": -0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Mactera"
+  },
+  "ED_Grabber": {
+    "EnemyID": "ID_Grabber",
+    "EnemyClass": "/Game/Enemies/FlyingBug/Grabber/ENE_Grabber.ENE_Grabber_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Normal",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": false,
+    "CreatureSize": 0,
+    "Positioning": "",
+    "PlacementCategories": 0,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Fly",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 1,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 95,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 2,
+    "Rarity": 15,
+    "SpawnAmountModifier": 0.5,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Mactera"
+  },
+  "ED_Prospector": {
+    "EnemyID": "ID_Prospector",
+    "EnemyClass": "/Game/Critters/Prospector/ENE_Prospector.ENE_Prospector_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Critical",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": false,
+    "CreatureSize": 2,
+    "Positioning": "",
+    "PlacementCategories": 0,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Fly",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 10,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 10,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": -98278958443362520000,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Specials"
+  },
+  "ED_FacilityTurret_Sniper": {
+    "EnemyID": "ID_FacilityTurret_Sniper",
+    "EnemyClass": "/Game/GameElements/Objectives/Facility/DefenseTurret/ENE_FacilityTurret_Sniper.ENE_FacilityTurret_Sniper_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Critical",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": false,
+    "CreatureSize": 2,
+    "Positioning": "DebrisPositioning_0",
+    "PlacementCategories": 0,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 10,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 12,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": -2350667336304912500000,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": -1754037213070310200000,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Hidden"
+  },
+  "ED_FacilityTurret_Burst": {
+    "EnemyID": "ID_FacilityTurret_Burst",
+    "EnemyClass": "/Game/GameElements/Objectives/Facility/DefenseTurret/ENE_FacilityTurret_Burst.ENE_FacilityTurret_Burst_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Critical",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": false,
+    "CreatureSize": 2,
+    "Positioning": "DebrisPositioning_0",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 10,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 12,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": -2350667336304912500000,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": -1754037213070310200000,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Hidden"
+  },
+  "ED_FacilityTurret_Barrier": {
+    "EnemyID": "ID_FacilityTurret_Barrier",
+    "EnemyClass": "/Game/GameElements/Objectives/Facility/DefenseTurret/ENE_FacilityTurret_Barrier.ENE_FacilityTurret_Barrier_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Critical",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": false,
+    "CreatureSize": 2,
+    "Positioning": "DebrisPositioning_0",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 10,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 12,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": -2350667336304912500000,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": -1754037213070310200000,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Hidden"
+  },
+  "ED_Shredder": {
+    "EnemyID": "ID_Shredder",
+    "EnemyClass": "/Game/Enemies/RivalTech/Shredder/ENE_Shredder.ENE_Shredder_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Swarmer",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": false,
+    "CreatureSize": 0,
+    "Positioning": "",
+    "PlacementCategories": 0,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Fly",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 500,
+    "IdealSpawnSize": 35,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 12,
+    "MinSpawnCount": 4,
+    "MaxSpawnCount": 9999,
+    "Rarity": 2,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Specials"
+  },
+  "ED_PatrolBot": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Enemies/RivalTech/PatrolBot/ENE_PatrolBot.ENE_PatrolBot_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Normal",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": false,
+    "CreatureSize": 2,
+    "Positioning": "DebrisPositioning_0",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Fly",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 10,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 75,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": -2350667336304912500000,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": -1754037213070310200000,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Specials"
+  },
+  "ED_Shark": {
+    "EnemyID": "ID_Shark",
+    "EnemyClass": "/Game/Enemies/Shark/ENE_Shark.ENE_Shark_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Normal",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 0,
+    "Positioning": "",
+    "PlacementCategories": 0,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "MAX",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 10,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 75,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 2,
+    "Rarity": 8,
+    "SpawnAmountModifier": 0.5,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": true,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 180,
+        "Rarity": 12
+      },
+      {
+        "Duration": 180,
+        "Rarity": 12
+      },
+      {
+        "Duration": 180,
+        "Rarity": 12
+      },
+      {
+        "Duration": 180,
+        "Rarity": 12
+      }
+    ],
+    "CheatClass": "Specials"
+  },
+  "ED_Jelly_Swarmer": {
+    "EnemyID": "ID_Jelly_Swarmer",
+    "EnemyClass": "/Game/Enemies/Jellyfish/ENE_Jelly_Swarmer_Child.ENE_Jelly_Swarmer_Child_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Swarmer",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": false,
+    "CreatureSize": 0,
+    "Positioning": "",
+    "PlacementCategories": 0,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Fly",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 500,
+    "IdealSpawnSize": 35,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 6,
+    "MinSpawnCount": 10,
+    "MaxSpawnCount": 15,
+    "Rarity": 4,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Specials"
+  },
+  "ED_Spider_Boss_TwinB": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Enemies/Spider/TankBoss/BossTwins/ENE_Spider_Boss_TwinB.ENE_Spider_Boss_TwinB_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Critical",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 4,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 0,
+    "IdealSpawnSize": 10,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 10,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 1,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": -3034955077406463500000000000000,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Specials"
+  },
+  "ED_Spider_Boss_TwinA": {
+    "EnemyID": "ID_Spider_Boss_TwinA",
+    "EnemyClass": "/Game/Enemies/Spider/TankBoss/BossTwins/ENE_Spider_Boss_TwinA.ENE_Spider_Boss_TwinA_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Critical",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 4,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 0,
+    "IdealSpawnSize": 1,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 10,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 1,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": -3034955077406463500000000000000,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Specials"
+  },
+  "ED_Spider_Tank_Boss": {
+    "EnemyID": "ID_Spider_Tank_Boss",
+    "EnemyClass": "/Game/Enemies/Spider/TankBoss/BossTank/ENE_Spider_Tank_Boss.ENE_Spider_Tank_Boss_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Critical",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 4,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 0,
+    "IdealSpawnSize": 10,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 350,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 1,
+    "Rarity": 4,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": -3034955077406463500000000000000,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Specials"
+  },
+  "ED_Spider_Boss_Heavy": {
+    "EnemyID": "ID_Spider_Boss_Heavy",
+    "EnemyClass": "/Game/Enemies/Spider/TankBoss/BossHeavy/ENE_Spider_Boss_Heavy.ENE_Spider_Boss_Heavy_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Critical",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 4,
+    "Positioning": "",
+    "PlacementCategories": 0,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 1,
+    "IdealSpawnSize": 1,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": false,
+    "DifficultyRating": 10,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 1,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": -0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Specials"
+  },
+  "ED_Flea": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Critters/FesterFlea/Flea/ENE_Flea.ENE_Flea_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Critter",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 0,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 30,
+    "CanBeUsedForConstantPressure": true,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 10,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Hidden"
+  },
+  "ED_Woodlouse_Youngling": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Enemies/Woodlouse/ENE_Woodlouse_Youngling.ENE_Woodlouse_Youngling_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Normal",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 2,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 10,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 50,
+    "MinSpawnCount": 2,
+    "MaxSpawnCount": 4,
+    "Rarity": 5,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 180,
+        "Rarity": 15
+      },
+      {
+        "Duration": 180,
+        "Rarity": 15
+      },
+      {
+        "Duration": 180,
+        "Rarity": 15
+      },
+      {
+        "Duration": 180,
+        "Rarity": 15
+      }
+    ],
+    "CheatClass": "Specials"
+  },
+  "ED_Woodlouse": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Enemies/Woodlouse/ENE_Woodlouse.ENE_Woodlouse_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Normal",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 2,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 10,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 145,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 1,
+    "Rarity": 8,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": true,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 180,
+        "Rarity": 15
+      },
+      {
+        "Duration": 180,
+        "Rarity": 15
+      },
+      {
+        "Duration": 180,
+        "Rarity": 15
+      },
+      {
+        "Duration": 180,
+        "Rarity": 15
+      }
+    ],
+    "CheatClass": "Specials"
+  },
+  "ED_PumpkinLootBug": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Critters/LootBug/ENE_LootBug.ENE_LootBug_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Swarmer",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": false,
+    "CreatureSize": 0,
+    "Positioning": "",
+    "PlacementCategories": 0,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 0,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 0,
+    "IdealSpawnSize": 10,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 10,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 3162.546875,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Hidden"
+  },
+  "ED_Spider_Hoarder": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Critters/LootBug/Hoarder/ENE_Spider_Hoarder.ENE_Spider_Hoarder_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Normal",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 0,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 1,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 10,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Advanced"
+  },
+  "ED_Mactera_Shooter_Amber": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Enemies/FlyingBug/Shooter/ENE_Mactera_Amber.ENE_Mactera_Amber_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Critical",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": false,
+    "CreatureSize": 0,
+    "Positioning": "",
+    "PlacementCategories": 0,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Fly",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 10,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 10,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": -0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Mactera"
+  },
+  "ED_InfestationLarva": {
+    "EnemyID": "ID_InfestationLarva",
+    "EnemyClass": "/Game/Enemies/InfestationLarva/ENE_InfestationLarva.ENE_InfestationLarva_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Swarmer",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": false,
+    "CreatureSize": 0,
+    "Positioning": "",
+    "PlacementCategories": 0,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 10,
+    "IdealSpawnSize": 10,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 10,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": -480.336914,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Advanced"
+  },
+  "ED_Jelly_Spawn": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Enemies/Jellyfish/ENE_Jelly_Spawn_Child.ENE_Jelly_Spawn_Child_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Swarmer",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": false,
+    "CreatureSize": 0,
+    "Positioning": "",
+    "PlacementCategories": 0,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Fly",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 500,
+    "IdealSpawnSize": 35,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 12,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Basic"
+  },
+  "ED_PatrolBot_Caretaker": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Enemies/RivalTech/PatrolBot/ENE_PatrolBot_Caretaker.ENE_PatrolBot_Caretaker_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Critical",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": false,
+    "CreatureSize": 2,
+    "Positioning": "DebrisPositioning_0",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Fly",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 500,
+    "IdealSpawnSize": 10,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 90,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": -2350667336304912500000,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": -1754037213070310200000,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Basic"
+  },
+  "ED_Spider_Charger": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Enemies/Spider/Charger/ENE_Spider_Charger.ENE_Spider_Charger_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Normal",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 0,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 10,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 10,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Hidden"
+  },
+  "ED_Spider_Exploder_Warning": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Enemies/Spider/Exploder/ENE_Spider_Exploding_Warning.ENE_Spider_Exploding_Warning_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Normal",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 2,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 8,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 24,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 0.5,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 0.008927,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Hidden"
+  },
+  "ED_Spider_ExploderTankGhost": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Enemies/Spider/ExploderTank/ENE_Spider_ExploderTank_Ghost.ENE_Spider_ExploderTank_Ghost_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Critical",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 4,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 1,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": false,
+    "DifficultyRating": 10,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": true,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 300,
+        "Rarity": 60
+      },
+      {
+        "Duration": 300,
+        "Rarity": 60
+      },
+      {
+        "Duration": 240,
+        "Rarity": 50
+      },
+      {
+        "Duration": 240,
+        "Rarity": 50
+      }
+    ],
+    "CheatClass": "Specials"
+  },
+  "ED_Spider_Drone": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Enemies/Spider/Flyer/ENE_Spider_Drone.ENE_Spider_Drone_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Normal",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 0,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 10,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 10,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Hidden"
+  },
+  "ED_Spider_GruntTutorial": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Enemies/Spider/Grunt/ENE_Spider_Grunt_Normal.ENE_Spider_Grunt_Normal_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [
+      {
+        "EnemyID": "",
+        "EnemyClass": "/Game/Enemies/Spider/Grunt/Guard/ENE_Spider_Grunt_Guard.ENE_Spider_Grunt_Guard_C",
+        "VeteranScaling": "NormalEnemy",
+        "VeteranClasses": [],
+        "BiomeEnemyClassOverrides": null,
+        "EliteEnemyClass": "",
+        "BannedMissionTypes": [],
+        "EnemySignificance": "Normal",
+        "SpawnOffset": {
+          "X": 0,
+          "Y": 0,
+          "Z": 0
+        },
+        "UsesSpawnEffects": true,
+        "CreatureSize": 2,
+        "Positioning": "",
+        "PlacementCategories": 1,
+        "CaveInfluencer": "",
+        "Debris": null,
+        "InfluencerRange": 1000,
+        "PlacementCarver": "",
+        "PathfinderType": "Walk",
+        "PlacementRoomQuery": null,
+        "SpawnSpread": 400,
+        "IdealSpawnSize": 5,
+        "CanBeUsedForConstantPressure": true,
+        "CanBeUsedInEncounters": true,
+        "DifficultyRating": 15,
+        "MinSpawnCount": 1,
+        "MaxSpawnCount": 9999,
+        "Rarity": 2,
+        "SpawnAmountModifier": 1,
+        "RequiredMainCampaignProgress": 0,
+        "UsesSpawnRarityModifiers": false,
+        "SpawnRarityModifiers": [
+          {
+            "Duration": 0,
+            "Rarity": 0
+          },
+          {
+            "Duration": 0,
+            "Rarity": 0
+          },
+          {
+            "Duration": 0,
+            "Rarity": 0
+          },
+          {
+            "Duration": 0,
+            "Rarity": 0
+          }
+        ],
+        "CheatClass": "Basic"
+      }
+    ],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Normal",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 2,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 500,
+    "IdealSpawnSize": 8,
+    "CanBeUsedForConstantPressure": true,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 10,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": -5.9e-05,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Basic"
+  },
+  "ED_Spider_Grunt_Mutated": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Enemies/Spider/Grunt/ENE_Spider_Grunt_Radioactive.ENE_Spider_Grunt_Radioactive_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Normal",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 2,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 10,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 12,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 0.079426,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Basic"
+  },
+  "ED_Spider_Grunt_Rock": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Enemies/Spider/Grunt/Rock/ENE_Spider_Grunt_Rock.ENE_Spider_Grunt_Rock_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Normal",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 2,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 500,
+    "IdealSpawnSize": 8,
+    "CanBeUsedForConstantPressure": true,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 10,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": -5.9e-05,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Basic"
+  },
+  "ED_Spider_Amber_Shooter": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Enemies/Spider/Shooter/ENE_Spider_Amber_Shooter.ENE_Spider_Amber_Shooter_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Critical",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 2,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 10,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 10,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": -7036698495905956000,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Advanced"
+  },
+  "ED_Spider_Shooter_Ground": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Enemies/Spider/Shooter/ENE_Spider_Shooter_Ground.ENE_Spider_Shooter_Ground_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Normal",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 2,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 10,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 10,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Hidden"
+  },
+  "ED_Spider_ShooterQueen": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Enemies/Spider/Shooter/ShooterQueen/ENE_Spider_Shooter_Queen.ENE_Spider_Shooter_Queen_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Critical",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 3,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 10,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 10,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Hidden"
+  },
+  "ED_Spider_Swarmer_Ice": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Enemies/Spider/Swarmer/ENE_Spider_Swarmer_Ice.ENE_Spider_Swarmer_Ice_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Swarmer",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 0,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 30,
+    "CanBeUsedForConstantPressure": true,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 10,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Advanced"
+  },
+  "ED_Spider_Swarmer_Mutated": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Enemies/Spider/Swarmer/ENE_Spider_Swarmer_Radioactive.ENE_Spider_Swarmer_Radioactive_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Swarmer",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 0,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 10,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 10,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Basic"
+  },
+  "ED_Spider_Swarmer_Pheromone_NOFX": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Enemies/Spider/Swarmer/ENE_Spider_Swarmer_Pheromoned.ENE_Spider_Swarmer_Pheromoned_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Swarmer",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": false,
+    "CreatureSize": 0,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 30,
+    "CanBeUsedForConstantPressure": true,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 10,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": -0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Hidden"
+  },
+  "ED_Spider_Spawn": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Enemies/Spider/Swarmer/Spawn/ENE_Spider_Spawn.ENE_Spider_Spawn_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Swarmer",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": false,
+    "CreatureSize": 0,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 0,
+    "IdealSpawnSize": 10,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 6,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 0.5,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": -24165341433167870,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Hidden"
+  },
+  "ED_Spider_Tank_Mutated": {
+    "EnemyID": "ID_Spider_Tank_Radioactive",
+    "EnemyClass": "/Game/Enemies/Spider/Tank/ENE_Spider_Tank_Radioactive.ENE_Spider_Tank_Radioactive_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Normal",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 3,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 10,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 12,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 0.008936,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Advanced"
+  },
+  "ED_Spider_Tank_Amber": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Enemies/Spider/Tank/Amber/ENE_Spider_Tank_Amber.ENE_Spider_Tank_Amber_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Critical",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 3,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 3,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 10,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Advanced"
+  },
+  "ED_Spider_Tank_Rock": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Enemies/Spider/Tank/Rock/ENE_Spider_Tank_Rock.ENE_Spider_Tank_Rock_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Normal",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 3,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 3,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 10,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": -389159421500805100000,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Advanced"
+  },
+  "ED_Spider_Tank_HeavySpawn": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Enemies/Spider/TankBoss/BossHeavy/ENE_Spider_Boss_HeavySpawn.ENE_Spider_Boss_HeavySpawn_C",
+    "VeteranScaling": "LargeEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Critical",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 4,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 1500,
+    "IdealSpawnSize": 1,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": false,
+    "DifficultyRating": 10,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Advanced"
+  },
+  "ED_FlyingSmartRock": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/GameElements/Objectives/Escort/FlyingSmartRocks/ENE_FlyingSmartRock.ENE_FlyingSmartRock_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Critical",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": true,
+    "CreatureSize": 4,
+    "Positioning": "",
+    "PlacementCategories": 0,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Fly",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 1,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 10,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": -0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Advanced"
+  },
+  "ED_InsectSwarm_Spawner": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/LevelElements/RoomObjects/Hazards/InsectSwarm/ENE_InsectSwarm_Spawner.ENE_InsectSwarm_Spawner_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Normal",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": false,
+    "CreatureSize": 0,
+    "Positioning": "",
+    "PlacementCategories": 1,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 1000,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 300,
+    "IdealSpawnSize": 10,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 10,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": -0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Specials"
+  },
+  "ED_EggSpider": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Enemies/Spider/Swarmer/ENE_Spider_Swarmer.ENE_Spider_Swarmer_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Swarmer",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": false,
+    "CreatureSize": 0,
+    "Positioning": "",
+    "PlacementCategories": 0,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 0,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 0,
+    "IdealSpawnSize": 10,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 6,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": -0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Hidden"
+  },
+  "ED_TunnelSwarmer": {
+    "EnemyID": "",
+    "EnemyClass": "/Game/Enemies/Spider/Swarmer/ENE_Spider_Swarmer.ENE_Spider_Swarmer_C",
+    "VeteranScaling": "NormalEnemy",
+    "VeteranClasses": [],
+    "BiomeEnemyClassOverrides": null,
+    "EliteEnemyClass": "",
+    "BannedMissionTypes": [],
+    "EnemySignificance": "Swarmer",
+    "SpawnOffset": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "UsesSpawnEffects": false,
+    "CreatureSize": 0,
+    "Positioning": "",
+    "PlacementCategories": 0,
+    "CaveInfluencer": "",
+    "Debris": null,
+    "InfluencerRange": 0,
+    "PlacementCarver": "",
+    "PathfinderType": "Walk",
+    "PlacementRoomQuery": null,
+    "SpawnSpread": 0,
+    "IdealSpawnSize": 20,
+    "CanBeUsedForConstantPressure": false,
+    "CanBeUsedInEncounters": true,
+    "DifficultyRating": 6,
+    "MinSpawnCount": 1,
+    "MaxSpawnCount": 9999,
+    "Rarity": 1,
+    "SpawnAmountModifier": 1,
+    "RequiredMainCampaignProgress": 0,
+    "UsesSpawnRarityModifiers": false,
+    "SpawnRarityModifiers": [
+      {
+        "Duration": -0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      },
+      {
+        "Duration": 0,
+        "Rarity": 0
+      }
+    ],
+    "CheatClass": "Hidden"
+  }
+}
