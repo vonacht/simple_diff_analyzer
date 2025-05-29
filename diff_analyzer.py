@@ -34,6 +34,7 @@ MOD_DESCRIPTORS = 'ModDescriptors.json'
 VANILLA_COMMON_POOL = {
         "ED_Spider_Grunt",
         "ED_Spider_Tank",
+        "ED_Spider_ShieldTank",
         "ED_Spider_RapidShooter",
         "ED_Spider_Buffer",
         "ED_Spider_ExploderTank",
@@ -47,7 +48,8 @@ VANILLA_COMMON_POOL = {
         "ED_Spider_Shooter",
         "ED_Spider_Lobber",
         "ED_Mactera_Shooter_Normal",
-        "ED_Mactera_TripleShooter"
+        "ED_Mactera_TripleShooter",
+        "ED_Spider_Stalker"
     }
 
 VANILLA_STATIONARY_POOL = {
@@ -167,7 +169,7 @@ def build_enemy_pools(diff: dict) -> dict:
         return add, remove
     
     common_pool = VANILLA_COMMON_POOL
-    for pool in ["EnemyPool", "DisruptorPool", "SpecialPool", "CommonPool"]:
+    for pool in ["EnemyPool", "DisruptiveEnemies", "SpecialEnemies", "CommonEnemies"]:
         enemies_to_add, enemies_to_remove = get_enemies_from_pool(pool)
         common_pool = common_pool | enemies_to_add - enemies_to_remove
 
