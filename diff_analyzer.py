@@ -26,9 +26,11 @@
 
 import json
 import click
+import re
 from tabulate import tabulate
 
 VANILLA_DESCRIPTORS = 'VanillaEnemyDescriptors.json'
+MOD_DESCRIPTORS = 'ModDescriptors.json'
 VANILLA_COMMON_POOL = {
         "ED_Spider_Grunt",
         "ED_Spider_Tank",
@@ -79,6 +81,9 @@ def build_enemy_record(diff_file) -> list:
     with open(VANILLA_DESCRIPTORS, 'r') as f:
         vanilla_record = json.load(f)
 
+    with open(MOD_DESCRIPTORS, 'r') as f:
+        mod_record = json.load(f)
+
     def search_for_control(control: str, default="N/A"):
         if p := diff_file.get("Enemies", {}).get(enemy, {}).get(control):
             if isinstance(p, dict):
@@ -95,17 +100,44 @@ def build_enemy_record(diff_file) -> list:
         else:
             return default
 
+    def search_for_origin(enemy):
+        if b := diff_file.get("Enemies", {}).get(enemy, {}).get("Base"):
+            base = b 
+        elif b := diff_file.get("EnemiesNoSync", {}).get(enemy, {}).get("Base"):
+            base = b 
+        else:
+            base = enemy 
+
+        if base in vanilla_record:
+            return f"{base} / Vanilla"
+        elif base in mod_record:
+            if base_origin := mod_record[base].get("EnemyClass", {}).get("AssetPathName"):
+                if "Elytras" in base_origin:
+                    origin = "EEE"
+                elif "Donnie" in base_origin:
+                    origin = "DEA"
+                elif "yinny" in base_origin:
+                    origin = "MEV"
+                else:
+                    origin = "unknown"
+            else:
+                origin = "unknown"
+            return f"{base} / {origin}"
+        else:
+            return "unknown"
+
     record = []
     for pool, enemies in build_enemy_pools(diff_file).items():
         for enemy in enemies:
             record.append({
                 "Enemy": enemy,
+                "Base/Origin": search_for_origin(enemy),
                 "Rarity": search_for_control("Rarity"),
-                "Pool": pool,
                 "DifficultyRating": search_for_control("DifficultyRating"),
                 "SpawnAmountModifier": search_for_control("SpawnAmountModifier"),
                 "Encounters": search_for_control("CanBeUsedInEncounters", default="False"),
-                "ConstantPressure": search_for_control("CanBeUsedForConstantPressure", default="False")
+                "ConstantPressure": search_for_control("CanBeUsedForConstantPressure", default="False"),
+                "Pool": pool
             })
     return record
 
