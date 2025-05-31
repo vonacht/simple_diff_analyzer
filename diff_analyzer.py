@@ -3,7 +3,7 @@
 #   The following script takes a CD2 difficulty file and prints a chart with all the enemies it can 
 #   find , including those in the vanilla pool by default. Basic usage:
 #   Help:
-#           python3 diff_analyzer.py -- help 
+#           python3 diff_analyzer.py --help 
 #
 #   Difficulty chart sorted alphabetically by enemy (default):
 
@@ -13,15 +13,15 @@
 
 #           python3 diff_analyzer.py "path_to_difficulty.json" --sort-by "Rarity"
 
-#   Accepted fields for --sort-by: ["Rarity", "SpawnAmountModifier", "Encounters", "ConstantPressure,
+#   Accepted fields for --sort-by: ["Rarity", "SpawnAmountModifier", "Encounters", "ConstantPressure",
 #                                   "DifficultyRating", "Pool"]
 #   
 #   An enemy will be shown in the unknown pool if the diff contains its descriptor 
 #   but it's not in any of the pools (could be a mistake, could be an enemy used in a wavespawner,
 #   or could be an enemy that is added or removed to the pool by mutation).
-#   There is a flag for filtering enemies in the unknown pool: --filter--unknown
+#   There is a flag for filtering enemies in the unknown pool: --filter-unknown
 #
-#   Asterisks (*) in numbers indicate that those are tha vanilla values for an enemy.
+#   Asterisks (*) in numbers indicate that those are the vanilla values for an enemy.
 #   ---------------------------------------------------------------------------------
 
 import json
