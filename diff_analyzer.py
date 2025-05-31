@@ -26,7 +26,6 @@
 
 import json
 import click
-import re
 from tabulate import tabulate
 
 VANILLA_DESCRIPTORS = 'VanillaEnemyDescriptors.json'
@@ -98,6 +97,8 @@ def build_enemy_record(diff_file) -> list:
             else:
                 return p
         elif p := vanilla_record.get(enemy, {}).get(control):
+            return f"{p} (*)"
+        elif p := mod_record.get(enemy, {}).get(control):
             return f"{p} (*)"
         else:
             return default
