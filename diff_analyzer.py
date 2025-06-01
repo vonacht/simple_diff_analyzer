@@ -78,7 +78,7 @@ def remove_multilines(diff):
 
     return s
 
-def build_enemy_record(diff_file) -> list:
+def build_enemy_record(diff_file):
     with open(VANILLA_DESCRIPTORS, 'r') as f:
         vanilla_record = json.load(f)
 
@@ -96,9 +96,9 @@ def build_enemy_record(diff_file) -> list:
                 return "Mutated"
             else:
                 return p
-        elif p := vanilla_record.get(enemy, {}).get(control):
+        elif p := vanilla_record.get(base, {}).get(control):
             return f"{p} (*)"
-        elif p := mod_record.get(enemy, {}).get(control):
+        elif p := mod_record.get(base, {}).get(control):
             return f"{p} (*)"
         else:
             return default
@@ -112,7 +112,7 @@ def build_enemy_record(diff_file) -> list:
             base = enemy 
 
         if base in vanilla_record:
-            return f"{base} / Vanilla"
+            return (base, "Vanilla")
         elif base in mod_record:
             if base_origin := mod_record[base].get("EnemyClass", {}).get("AssetPathName"):
                 if "Elytras" in base_origin:
@@ -125,16 +125,20 @@ def build_enemy_record(diff_file) -> list:
                     origin = "unknown"
             else:
                 origin = "unknown"
-            return f"{base} / {origin}"
+            return (base, origin)
         else:
-            return "unknown"
+            return ("unknown", "unknown")
 
     record = []
+    mods = set()
     for pool, enemies in build_enemy_pools(diff_file).items():
         for enemy in enemies:
+            base, origin = search_for_origin(enemy)
+            if origin != "unknown":
+               mods.add(origin)
             record.append({
                 "Enemy": enemy,
-                "Base/Origin": search_for_origin(enemy),
+                "Base/Origin": f"{base} / {origin}",
                 "Rarity": search_for_control("Rarity"),
                 "DifficultyRating": search_for_control("DifficultyRating"),
                 "SpawnAmountModifier": search_for_control("SpawnAmountModifier"),
@@ -142,7 +146,8 @@ def build_enemy_record(diff_file) -> list:
                 "ConstantPressure": search_for_control("CanBeUsedForConstantPressure", default="False"),
                 "Pool": pool
             })
-    return record
+
+    return record, mods
 
 def build_enemy_pools(diff: dict) -> dict:
 
@@ -222,12 +227,13 @@ def sort_and_plot(file_path: str, sort_by: str, filter_unknown: bool):
     with open(file_path, 'r') as diff:
         diff_file = json.loads(remove_multilines(diff))
 
-    enemy_record = build_enemy_record(diff_file)
+    enemy_record, mods = build_enemy_record(diff_file)
     if filter_unknown:
         enemy_record = [rc for rc in enemy_record if rc["Pool"] != "unknown"]
     sorted_record = sorted(enemy_record, 
                            key=lambda r: custom_sorter(r[sort_by], sort_by))
     print(f"\nCHART FOR: {diff_file.get('Name', 'Unknown')}")
+    print(f"Origin of enemies: {mods}\n")
     print(tabulate(sorted_record, headers="keys"))
 
 if __name__ == '__main__':
